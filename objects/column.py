@@ -12,7 +12,7 @@ class Column(pygame.sprite.Sprite):
         self._layer = Layer.OBSTACLE
         self.gap = 100
 
-        self.sprite = assets.get_sprite("pipe-red")
+        self.sprite = assets.get_sprite("pipe2")
         self.sprite_rect = self.sprite.get_rect()
 
         self.pipe_bottom = self.sprite
